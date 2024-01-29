@@ -16,6 +16,5 @@ Flutter Sample with Bloc
 
 <img src="https://github.com/diefferson/flutter_timer/assets/13908165/be9aeed7-79ba-45b6-b3f2-5710b0b3ae69" width=200>
 <img src="https://github.com/diefferson/flutter_timer/assets/13908165/f05ecfcb-95d3-4b18-8600-6136a64f357b" width=200>
-<img src="https://github.com/diefferson/flutter_timer/assets/13908165/b532aca1-eade-4af6-a7b4-63c18264a73b" width=200>
 <img src="https://github.com/diefferson/flutter_timer/assets/13908165/7addd7fc-35d1-41f7-8e72-f72fc1f9d851" width=200>
 
