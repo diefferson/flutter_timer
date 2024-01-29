@@ -65,7 +65,7 @@ class _TaskDetailsPageState extends InjectableState<TaskDetailsPage>
     return OdooBackground(
       child: Scaffold(
         appBar: OdooAppBar(
-          title: widget.timer.description,
+          title: widget.timer.taskName,
           titleSize: 16,
           tabBar: _tabBar(context),
           actions: [
