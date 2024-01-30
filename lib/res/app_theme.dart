@@ -19,8 +19,9 @@ class AppTheme {
       scaffoldBackgroundColor: appColors.surfaceVariant,
       colorScheme: _colorScheme(brightness),
       fontFamily: fontFamily,
-      textTheme: _textTheme(appColors: appColors),
+      textTheme: _textTheme(),
       cupertinoOverrideTheme: _cupertinoThemeData(brightness),
+
       iconTheme: IconThemeData(
         color: appColors.onSecondary
       )
@@ -74,56 +75,49 @@ class AppTheme {
         ),
       );
 
-  TextTheme _textTheme({required AppColorsLight appColors}) {
-    return TextTheme(
+  TextTheme _textTheme() {
+    return const TextTheme(
       displayLarge: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 57,
         height: 1.12,
         fontWeight: FontWeight.w600,
-        color: appColors.onSurface,
       ),
       displayMedium: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 45,
         height: 1.15,
         fontWeight: FontWeight.w400,
-        color: appColors.onSurface,
       ),
       displaySmall: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 36,
         height: 1.22,
         fontWeight: FontWeight.w600,
-        color: appColors.onSurface,
       ),
       headlineLarge: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 32,
         height: 1.25,
         fontWeight: FontWeight.w700,
-        color: appColors.onSurface,
       ),
       headlineMedium: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 28,
         height: 1.28,
         fontWeight: FontWeight.w700,
-        color: appColors.onSurface,
       ),
       headlineSmall: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 24,
         height: 1.33,
         fontWeight: FontWeight.w700,
-        color: appColors.onSurface,
       ),
       titleLarge: TextStyle(
         fontFamily: AppTheme.fontFamily,
         fontSize: 22,
         height: 1.27,
         fontWeight: FontWeight.w600,
-        color: appColors.onSurface,
       ),
       titleMedium: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -131,7 +125,6 @@ class AppTheme {
         height: 1.5,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.15,
-        color: appColors.onSurface,
       ),
       titleSmall: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -139,7 +132,6 @@ class AppTheme {
         height: 1.42,
         fontWeight: FontWeight.w600,
         letterSpacing: 0.1,
-        color: appColors.onSurface,
       ),
       labelLarge: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -147,7 +139,6 @@ class AppTheme {
         height: 1.42,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.1,
-        color: appColors.onSurface,
       ),
       labelMedium: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -155,7 +146,6 @@ class AppTheme {
         height: 1.33,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.5,
-        color: appColors.onSurface,
       ),
       labelSmall: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -163,7 +153,6 @@ class AppTheme {
         height: 1.35,
         fontWeight: FontWeight.w500,
         letterSpacing: 0.5,
-        color: appColors.onSurface,
       ),
       bodyLarge: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -171,7 +160,6 @@ class AppTheme {
         height: 1.5,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.5,
-        color: appColors.onSurface,
       ),
       bodyMedium: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -179,7 +167,6 @@ class AppTheme {
         height: 1.42,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.25,
-        color: appColors.onSurface,
       ),
       bodySmall: TextStyle(
         fontFamily: AppTheme.fontFamily,
@@ -187,7 +174,6 @@ class AppTheme {
         height: 1.33,
         fontWeight: FontWeight.w400,
         letterSpacing: 0.25,
-        color: appColors.onSurface,
       ),
     );
   }
